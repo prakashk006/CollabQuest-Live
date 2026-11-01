@@ -15,6 +15,12 @@ build/
 
 # Test artifacts and local recordings / OBS exports
 coverage/
+.cache/
+.vite/
+.npm/
+.eslintcache
+.nyc_output/
+*.tsbuildinfo
 recordings/
 obs-exports/
 *.mp4
