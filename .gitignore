@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Installed dependencies
+node_modules/
+
+# Debug logs
+*.log
+
+# Build output
+dist/
+build/
+
+# Test artifacts and local recordings / OBS exports
+coverage/
+recordings/
+obs-exports/
+*.mp4
+*.mkv
+
+# Private keys and local credential files
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
